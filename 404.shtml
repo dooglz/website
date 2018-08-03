@@ -1,0 +1,9 @@
+<div align="center">
+<IMG SRC="http://www.nanochimps.com/images/404.gif" ALT="404">
+<br>
+<br>
+what's <!--#echo var="REQUEST_URI" --> anyway?
+<!-- 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+--> 
+</div>
