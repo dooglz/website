@@ -16,6 +16,7 @@
   <script src="js/config.js"></script>
   <script src="js/skel.min.js"></script>
   <link rel="stylesheet" href="css/cv.css" />
+  <link rel="stylesheet" href="css/jquery.modal.min.css" />
   <noscript>
     <link rel="stylesheet" href="css/skel-noscript.css" />
     <link rel="stylesheet" href="css/style.css" />
@@ -76,45 +77,42 @@
         <section class="is-gallery">
           <div class="row half">
 
-              <div class="4u">
-                  <a href="https://github.com/dooglz/gpuvis" class="image image-full"><img src="images/work_phd.png" alt="">
-                  </a>
-                  My Research project into visualizing GPU ASM code with Live Debugging.
-                </div>
-
-              <div class="4u">
-                  <a href="https://github.com/edinburgh-napier" class="image image-full"><img src="images/work_napiermat.jpg" alt="">
-                  </a>
-                  Content I have authored for various University Modules.
-                </div>
-
-
-
+            <div class="4u">
+              <a href="#modal_PhD" rel="modal:open" class="image image-full"><img src="images/work_phd.png" alt="">
+              </a>
+              My Research project into visualizing GPU ASM code with Live Debugging.
+            </div>
 
             <div class="4u">
-                <a href="https://github.com/dooglz/Celestial-Drift" class="image image-full"><img src="images/work_cd.jpg" alt="">
-                </a>
-                Celestial-Drift. 4th year Game project written from scratch in C++ using OpenGL.
-              </div>
+              <a href="https://github.com/edinburgh-napier" class="image image-full"><img src="images/work_napiermat.jpg" alt="">
+              </a>
+              Content I have authored for various University Modules.
+            </div>
 
-              <div class="clear"></div>
+            <div class="4u">
+              <a href="#modal_cd" rel="modal:open" class="image image-full"><img src="images/work_cd.jpg" alt="">
+              </a>
+              Celestial-Drift. 4th year Game project written from scratch in C++ using OpenGL.
+            </div>
 
-              <div class="4u">
-                  <a href="" class="image image-full"><img src="images/work_hpc.jpg" alt="">
-                  </a>
-                  HPC2 - My work as designer and admin for the university's Compute cluster.
-                </div>
+            <div class="clear"></div>
 
-              <div class="4u">
-                  <a href="http://u3d.as/5yb" class="image image-full"><img src="images/work_unityRTT.jpg" alt="">
-                  </a>
-                  A library to provide helpful methods for modifying terrain objects while the game is running.
-                </div>
+            <div class="4u">
+              <a href="" class="image image-full"><img src="images/work_hpc.jpg" alt="">
+              </a>
+              HPC2 - My work as designer and admin for the university's Compute cluster.
+            </div>
+
+            <div class="4u">
+              <a href="http://u3d.as/5yb" class="image image-full"><img src="images/work_unityRTT.jpg" alt="">
+              </a>
+              A library to provide helpful methods for modifying terrain objects while the game is running.
+            </div>
 
             <div class="4u">
               <a href="http://bit.ly/16sgrsV" class="image image-full"><img src="images/work_gmodmaps.jpg" alt="">
               </a>
-               Levels I have created for the sandbox game "Garry's Mod". ttt_waterworld has surpassed a million subscribers.
+              Levels I have created for the sandbox game "Garry's Mod". ttt_waterworld has surpassed a million subscribers.
             </div>
 
 
@@ -129,70 +127,62 @@
               </a>
               Technical articles I have written for the Valve fansite Lambda Generation
             </div>
-  
+
             <div class="4u">
-                <a href="http://samserrels.com/content/sos" class="image image-full"><img src="images/work_sos.jpg" alt="">
-                </a>
-                A 3D dungeon Crawler, written in c++ using the Irrlicht engine for rendering.
-              </div>
-
-
-
+              <a href="http://samserrels.com/content/sos" class="image image-full"><img src="images/work_sos.jpg" alt="">
+              </a>
+              A 3D dungeon Crawler, written in c++ using the Irrlicht engine for rendering.
+            </div>
 
           </div>
         </section>
         <header>
-            <h2>Odd Projects</h2>
-          </header>
+          <h2>Odd Projects</h2>
+        </header>
         <section class="is-gallery">
-            <div class="row half">
+          <div class="row half">
 
-
-  
-              <div class="4u">
-                <a href="http://samserrels.com/content/dnb/" class="image image-full"><img src="images/work_dnb.jpg" alt="">
-                </a>
-                A Javascript web-game created for my HCI module.
-              </div>
-  
-  
-  
-              <div class="4u">
-                <a href="http://www.ludumdare.com/compo/ludum-dare-28/?action=preview&uid=7890" class="image image-full"><img src="images/work_ultrachase.jpg" alt="">
-                </a>
-                A game created in 48 hours for the 28th Ludum Dare competition
-              </div>
-  
-              <div class="4u">
-                <a href="http://samserrels.com/content/cailon/fluid.html" class="image image-full"><img src="images/work_cailon.jpg" alt="">
-                </a>
-                A prototype project, testing html5 for games on mobile devices
-              </div>
-  
-              <div class="clear"></div>
-  
-              <div class="4u">
-                <a href="http://globalgamejam.org/2014/games/face" class="image image-full"><img src="images/work_faceoff.jpg" alt="">
-                </a>
-                My teams entry for the 2014 Global Game Jam
-              </div>
-  
-  
-              <div class="4u">
-                <a href="http://lambdageneration.com/author/dooglz/" class="image image-full"><img src="images/work_ggj15.jpg" alt="">
-                </a>
-                My teams entry for the 2015 Global Game Jam
-              </div>
-  
-              <div class="4u">
-                  <a href="https://www.samserrels.com/ggj19/" class="image image-full"><img src="images/good_house.png" alt="">
-                  </a>
-                 GOOD HOUSE - GGJ2019 entry (made in under 20mins)
-                </div>
-  
-  
+            <div class="4u">
+              <a href="http://samserrels.com/content/dnb/" class="image image-full"><img src="images/work_dnb.jpg" alt="">
+              </a>
+              A Javascript web-game created for my HCI module.
             </div>
-          </section>
+
+            <div class="4u">
+              <a href="http://www.ludumdare.com/compo/ludum-dare-28/?action=preview&uid=7890" class="image image-full"><img src="images/work_ultrachase.jpg" alt="">
+              </a>
+              A game created in 48 hours for the 28th Ludum Dare competition
+            </div>
+
+            <div class="4u">
+              <a href="http://samserrels.com/content/cailon/fluid.html" class="image image-full"><img src="images/work_cailon.jpg" alt="">
+              </a>
+              A prototype project, testing html5 for games on mobile devices
+            </div>
+
+            <div class="clear"></div>
+
+            <div class="4u">
+              <a href="http://globalgamejam.org/2014/games/face" class="image image-full"><img src="images/work_faceoff.jpg" alt="">
+              </a>
+              My teams entry for the 2014 Global Game Jam
+            </div>
+
+            <div class="4u">
+              <a href="http://lambdageneration.com/author/dooglz/" class="image image-full"><img src="images/work_ggj15.jpg" alt="">
+              </a>
+              My teams entry for the 2015 Global Game Jam
+            </div>
+
+            <div class="4u">
+              <a href="https://www.samserrels.com/ggj19/" class="image image-full"><img src="images/good_house.png" alt="">
+              </a>
+              GOOD HOUSE - GGJ2019 entry (made in under 20mins)
+            </div>
+
+
+          </div>
+        </section>
 
       </article>
       <!-- CV -->
@@ -446,6 +436,19 @@
         </li>
       </ul>
     </div>
+  </div>
+  <!-- jQuery Modal -->
+  <script src="js/jquery.modal.min.js"></script>
+
+  <div id="modal_PhD" class="modal">
+    <p>Info About my phd project</p>
+    <a href="https://github.com/dooglz/gpuvis">github.com/dooglz/gpuvis</a>
+    <p><a href="#" rel="modal:close">Close</a></p>
+  </div>
+  <div id="modal_cd" class="modal">
+    <p>Info About Celestial Drift</p>
+    <a href="https://github.com/dooglz/Celestial-Drift">github.com/dooglz/Celestial-Drift</a>
+    <p><a href="#" rel="modal:close">Close</a></p>
   </div>
 </body>
 
